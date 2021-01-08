@@ -11,8 +11,11 @@ var counter = 1;
 
 // Size
 var size;
+size = carouselImages[0].width;
+carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
-while (!size) {
+
+/*while (!size) {
 	if (carouselImages[0].width) {
 		size = carouselImages[0].width;
 	} else if (carouselImages[1].width) {
@@ -21,7 +24,7 @@ while (!size) {
 		size = carouselImages[2].width;
 	}
 	carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
-}
+}*/
 
 //Button Listeners
 
