@@ -10,9 +10,11 @@ var nextBtnSmall = document.querySelector('#nextBtn-small');
 var counterSmall = 1;
 
 //Size
-var sizeSmall;
+var size;
+size = carouselImages[0].width;
+carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
-while (!sizeSmall) {
+/*while (!sizeSmall) {
 	if (carouselImagesSmall[0].width) {
 		sizeSmall = carouselImagesSmall[0].width;
 	} else if (carouselImagesSmall[1].width) {
@@ -21,7 +23,7 @@ while (!sizeSmall) {
 		sizeSmall = carouselImagesSmall[2].width;
 	}
 	carouselSlideSmall.style.transform = 'translateX(' + (-sizeSmall * counter) + 'px)';
-}
+}*/
 
 
 //Button Listeners

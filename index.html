@@ -42,13 +42,36 @@
 	<main>
 		<div class="main-content">
 			<div class="content-container-large">
-				<!-- ===================== SLIDER ==================== -->		
+				<!-- ===================== SLIDER ==================== -->
+				<div class="slider-container">				
+					<!-- SLIDES -->
+					<div class="slider-slides">
+						<img src="images/slide-placeholder-large-03.png" id="lastClone" class="slider-image" />
+						<img src="images/slide-placeholder-large-01.png" class="slider-image" />
+						<img src="ref/BK_sundae_ad.jpg" class="slider-image" />
+						<img src="images/slide-placeholder-large-03.png" class="slider-image" />
+						<img src="images/slide-placeholder-large-01.png" id="firstClone" class="slider-image" />
+					</div>
+					<a id="prevBtn">&#10094;</a>
+					<a id="nextBtn">&#10095;</a>				
+				</div>			
 				<!-- ================== MAIN IMAGES ====================== -->
 				<img class="promotion-image" src="ref/BK_ad_02.jpg"/>
 				<img class="promotion-image" src="ref/BK_ad_03.jpg"/>
 			</div>
 			<!-- ===================== SLIDER - SMALL ==================== -->
-			<div class="content-container-small">			
+			<div class="content-container-small">
+				<div class="slider-container-small">				
+					<div class="slider-slides-small">
+						<img src="images/slide-placeholder-small-03.png" id="lastClone-small" class="slider-image" />
+						<img src="images/slide-placeholder-small-01.png" class="slider-image" />
+						<img src="images/slide-placeholder-small-02.png" class="slider-image" />
+						<img src="images/slide-placeholder-small-03.png" class="slider-image" />
+						<img src="images/slide-placeholder-small-01.png" id="firstClone-small" class="slider-image" />
+					</div>
+					<a id="prevBtn-small">&#10094;</a>
+					<a id="nextBtn-small">&#10095;</a>				
+				</div>			
 				<!-- ================ MAIN IMAGES - SMALL ==================== -->
 				<img class="promotion-image" src="ref/BK_ad_smaller.jpg"/>
 				<img class="promotion-image" src="images/promotion-placeholder-small.png"/>
@@ -75,5 +98,7 @@
 	</footer>
 	
 	<script src="scripts/mobile-menu.js"></script>
+	<script src="scripts/slider.js"></script>
+	<script src="scripts/slider-small.js"></script>
 </body>
 </html>
